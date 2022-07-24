@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.basis{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 30px;
+    height: 50px;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(206, 205, 205);
+    z-index: 20;
+}
+.img #rasm1{
+    width: 40px;
+    display: inline-block;
+    margin-top: 5px;
+}
+.img #h4{
+    display:inline-block;
+    margin-bottom: 20px;
+    align-items: center;
+
+}
+.section li{
+    display: inline-block;
+}
+.section a{
+    color:#2c3e50;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.section li{
+    margin: 0 5px;
+}
+.section a:hover{
+    color:#2c3e50;
+    border-bottom: 2px solid #3eaf7c;;
+}
+ #browser{
+    width: 20px;
+}
+#input1{
+    width: 150px;
+    color:#2c3e50;
+    padding: 5px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid #2c3e50;
+    transition: all .2s ease;
+
+    padding-left: 25px;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/750px-Search_Icon.svg.png?20181016161702") no-repeat left;
+    background-size: 20px;
+}
+#input[type=submit]:hover{
+    border: 1px solid  #3eaf7c;
+    outline:auto;
+}
+
+.medium{
+    display: grid;
+    grid-template-columns: 20% 80%;   
+}
+
+.sectionone{
+    margin: 20px 25px;
+    overflow-y: scroll;
+}
+.sectionone li{
+    list-style: none;
+    margin: 8px 0;
+
+}
+.sectionone h4{
+    cursor:avto;
+    font-size: 0.9em;
+    font-weight: 700;
+    line-height: 1.7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sectionone a{
+    text-decoration: none;
+    color: #2c3e50;
+    font-size:12px;
+}
+.sectionone a:hover{
+    color: #3eaf7c;
+}
+
+/*Section two*/
+.sectiontwo{
+    margin: 50px 20% ;
+    font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif ;
+    color: rgb(100, 100, 100);
+}
+.sectiontwo h2{
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.sectiontwo  #about{
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(230, 229, 229);
+}
+
+.sectiontwo h3{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 25px 0 10px 0;
+}
+
+.sectiontwo h4{
+    font-size: 17px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.sectiontwo p{
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    margin:15px 0;
+}
+
+.sectiontwo li h4{
+    font-size: 13px;
+}
+.sectiontwo #disk{
+    list-style:disc;
+    margin-left: 0px;
+}
+.sectiontwo li h4 a{
+    text-decoration: none;
+    color: #3eaf7c;
+}
+.sectiontwo li h4 a:hover{
+    text-decoration:underline;
+    color: #3eaf7c;
+}
+
+.sectiontwo li{
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.sectiontwo #bosh{
+    margin-left:20px;
+    list-style:circle;
+}
+
+.sectiontwo li{
+  list-style:square;
+  margin-left: 30px;
+}
+.sectiontwo #past li{
+    list-style: disc;
+    margin-left: 0;
+}
+
+.sectiontwo img{
+    width: 100%;
+    margin: 15px 0;
+
+}
+.sectiontwo  #rasm2{
+    width: 40%;
+    margin: 15px 0;
+}
+.sectiontwo h4 a{
+    text-decoration: none;
+    color: #3eaf7c;
+    font-size: 13px;
+}
+.sectiontwo h4 a:hover{
+    text-decoration: underline;
+}
+.sectiontwo a{
+    text-decoration: none;
+    color: #3eaf7c;
+    font-weight: 600;
+}
+
+.sectiontwo  #oxirgi{
+ font-size: 13px;
+ padding-left: 85%;
+} 
