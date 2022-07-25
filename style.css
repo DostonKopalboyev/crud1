@@ -104,11 +104,21 @@
     padding-bottom: 10px;
 }
 
+.sectiontwo h2:hover::before{
+    content: "#  ";
+    color:#3eaf7c;
+}
+
 .sectiontwo  #about{
     font-size: 22px;
     font-weight: 500;
     padding-bottom: 5px;
     border-bottom: 1px solid rgb(230, 229, 229);
+}
+
+.sectiontwo #about:hover::before{
+    content: "#  ";
+    color:#3eaf7c;
 }
 
 .sectiontwo h3{
@@ -117,10 +127,20 @@
     padding: 25px 0 10px 0;
 }
 
+.sectiontwo h3:hover::before{
+    content: "#  ";
+    color:#3eaf7c;
+}
+
 .sectiontwo h4{
     font-size: 17px;
     font-weight: 500;
     padding-top: 20px;
+}
+
+.sectiontwo h4:hover::before{
+    content:"#  ";
+    color:#3eaf7c;
 }
 
 .sectiontwo p{
